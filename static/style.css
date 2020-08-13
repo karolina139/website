@@ -1,0 +1,329 @@
+body
+{
+    /* background-color: #efefef; */
+    background-color: #fefefe;
+    font-family: 'Noticia Text', serif;
+	font-size: 20px;
+    color:#191d21 ;   
+}
+
+html, body 
+{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px; 
+    min-height:100%;
+    position:relative;
+    
+}
+
+#header
+{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    font-size: 60px;
+}
+
+#nav
+{
+    width: 100%;
+    text-align:center;
+    margin: 20px 0 ;
+    padding: 10px 0;
+    margin-left:50px
+}
+
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 20px;
+	line-height: 200%;
+	height: 35px;
+	display: inline-block;  
+}
+
+.icon-facebook
+{
+    color: #4868b3;
+}
+
+
+.icon-facebook:hover
+{
+    color:#3757a2;
+}
+ol a
+{
+    color: #191d21;
+    text-decoration: none;
+    display: block;
+}
+ 
+.item a
+{
+    color: #191d21;
+    text-decoration: none;
+    display: block;
+}
+
+.item a:hover
+{
+   text-decoration: underline;
+}
+
+
+ol > li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-left: 1px solid black;
+}
+ 
+ol a:hover
+{
+   text-decoration: underline;
+}
+
+
+#content
+{
+    width:960px;
+    padding: 20px;
+    font-size: 18px;
+    text-align:justify; 
+    padding-bottom:80px; 
+    line-height: 150%;
+}
+
+.text
+{
+    padding-bottom: 50px;
+}
+
+.row{
+    margin: 20px 10px;
+    
+}
+
+.postcard
+{
+    display: inline-block;
+    padding: 30px;
+}
+
+.postcard p
+{
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+
+.photo img
+{
+    width: 250px;
+    max-height: 400px;
+    border: 3px solid white; 
+}
+
+
+.photo img:hover
+{
+    -webkit-transform: scale(1.05);		
+    -ms-transform: scale(1.05);		
+    transform: scale(1.05);		
+    opacity: 75%;
+    border-color: #ffc000;
+}
+
+.item
+{
+padding-top: 200px;
+
+}
+
+
+#footer
+{
+    width:1000px;
+    /* background-color: #33402a; */
+    /* background-color:#dda000; */
+    background-color: #8C8572;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    height: 25px;
+    padding-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.contact{
+    text-align: center;
+}
+
+.statement
+{
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+input[type=text]
+{   
+    width: 300px;
+    background-color: #efefef;
+    color:#8C8572;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+input[type=submit]
+{
+    width: 300px;
+    background-color: #ffc000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;  
+}
+
+textarea{
+    background-color: #efefef;
+    color:#8C8572;
+    border: 2px solid #ddd;
+    font-size: 20px;
+    outline: none; 
+}
+
+
+
+.scrollup
+{
+    width:64px;
+    height: 74px;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    display:none;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+.mySlides:first-of-type {
+display: block;
+}
+
+.mySlides {
+display: none;
+
+}
+
+.mySlides img
+{
+    width: 550px;
+    max-height: 800px;
+    margin-right: 50px;
+     
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 410px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+   
+  }
+  
+  .active, .dot:hover {
+    background-color: #ffc000;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
